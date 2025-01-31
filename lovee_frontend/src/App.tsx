@@ -1,13 +1,15 @@
-import React from 'react';
-import ExampleComponent from './components/ExampleComponent';
+import Header from './components/Header'
+import Footer from './components/Footer'
+import Home from './components/Home'
 
-const App: React.FC = () => {
+function App() {
   return (
-    <div>
-      <h1>Welcome to My React Vite App</h1>
-      <ExampleComponent />
-    </div>
-  );
-};
+    <>
+      <Header />
+      <Home />
+      <Footer />
+    </>
+  )
+}
 
-export default App;
+export default App
