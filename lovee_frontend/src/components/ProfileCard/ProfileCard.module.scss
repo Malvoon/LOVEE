@@ -2,16 +2,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(238, 213, 255);
     img {
         width: 40vh;
-        height: auto;
+        height: 40vh;
         object-fit: cover;
     }
 
     h2 {
         font-size: 2rem;
         margin: 0;
+    }
+
+    p {
+        min-height: 20px
     }
 }
 
