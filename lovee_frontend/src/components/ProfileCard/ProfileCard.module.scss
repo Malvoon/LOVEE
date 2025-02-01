@@ -1,7 +1,10 @@
 .profileCard_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: rgb(238, 213, 255);
     img {
-        width: 20vh;
+        width: 40vh;
         height: auto;
         object-fit: cover;
     }
@@ -15,16 +18,6 @@
 .profileCard_buttons {
     display: flex;
     justify-content: space-around;
+    width: 80%;
     margin-top: 1rem;
-    button {
-        background-color: rgb(238, 213, 255);
-        border: none;
-        padding: 0.5rem 1rem;
-        font-size: 1rem;
-        cursor: pointer;
-        transition: all 0.3s;
-        &:hover {
-            background-color: rgb(255, 192, 255);
-        }
-    }
 }

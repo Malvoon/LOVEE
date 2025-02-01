@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './ProfileCard.module.scss';
+import Button from '../Button/Button';
 
 interface ProfileCardProps {
   photo: string;
@@ -14,8 +15,8 @@ const ProfileCard: React.FC<{ profile: ProfileCardProps }> = ({ profile }) => {
       <h2 className={classes.profileCard_name}>{profile.name}</h2>
       <p>{profile.bio}</p>
       <div className={classes.profileCard_buttons}>
-        <button>Like</button>
-        <button>Dislike</button>
+        <Button type="pass" />
+        <Button type="like" />
       </div>
     </div>
   );

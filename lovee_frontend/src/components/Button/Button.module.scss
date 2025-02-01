@@ -1,0 +1,11 @@
+.button {
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    &:hover {
+        transform: scale(1.2);
+        color: red;
+    }
+}
