@@ -3,5 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Montserrat", serif;
-    background-color: rgb(238, 213, 255);
+}
+
+body {
+    background: linear-gradient(to bottom, #ffdeed, #ffb6d9); // Dégradé de rose à blanc
 }

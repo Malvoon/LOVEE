@@ -1,4 +1,4 @@
-.button {
+.button_like_pass {
     border: none;
     background: none;
     padding: 0.5rem 1rem;
@@ -8,5 +8,18 @@
     &:hover {
         transform: scale(1.2);
         color: red;
+    }
+}
+
+.button_login {
+    margin-top: 1.5rem;
+    border-radius: 50px;
+    padding: 0.3rem 0.9rem;
+    font-size: 1.5rem;
+    transition: all 0.3s;
+    &:hover {
+        transform: scale(1.1);  
+        color: red;
+        cursor: pointer;
     }
 }
