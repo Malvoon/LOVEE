@@ -10,11 +10,7 @@ function App() {
 
       <Router>
         <Routes>
-          <Route path="/" element={
-            <>
-              <Header isHomePage={true} />
-              <Home />
-            </>} />
+          <Route path="/" element={<Home />} />
           <Route path="/profiles" element={
             <>
               <Header />

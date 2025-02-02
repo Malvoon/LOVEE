@@ -1,14 +1,15 @@
-import classes from './Home.module.scss'
+import classes from './Home.module.scss';
+import { FaHeart } from 'react-icons/fa';
 
 const Home = () => {
   return (
-    <>
-        <div className={classes.home_container}>
-            <h1>Lovee</h1>
-            <p>Le site de rencontre qui vous met en relation avec des personnes qui vous correspondent</p>
-        </div>
-    </>
-  )
-}
+    <div className={classes.home_container}>
+      <h1>
+        L<FaHeart className={classes.heart_icon} />vee
+      </h1>
+      <p>Rencontrez votre âme soeur en quelques clics</p>
+    </div>
+  );
+};
 
-export default Home
+export default Home;
