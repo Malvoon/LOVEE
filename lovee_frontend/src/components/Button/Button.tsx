@@ -22,6 +22,10 @@ const Button = (button: ButtonProps) => {
         console.log('forgot');
     };
 
+    const handleGoogleClick = () => {
+        console.log('google');
+    }
+
     return (
         <>
             {button.type == 'pass' && <i className={`pi pi-times ${classes.button_like_pass}`} />}
@@ -42,7 +46,9 @@ const Button = (button: ButtonProps) => {
                 onClick={handleForgotClick}>
                 Mot de passe oublié
             </button>}
-            {button.type == 'google' && <button className={classes.button_google}>
+            {button.type == 'google' && <button
+            className={classes.button_google}
+            onClick={handleGoogleClick}>
                 <img src="https://img.icons8.com/color/48/000000/google-logo.png" alt="google" />
                 <span>Connexion avec Google</span>
             </button>}
