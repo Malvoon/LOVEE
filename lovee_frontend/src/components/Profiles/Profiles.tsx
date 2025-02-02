@@ -1,4 +1,3 @@
-import React from 'react';
 import classes from './Profiles.module.scss';
 import ProfileCard from '../ProfileCard/ProfileCard';
 

@@ -8,7 +8,7 @@ const Header = () => {
         L<FaHeart className={classes.heart_icon} />vee
       </h1>
       <nav>
-        <a href="accueil">Accueil</a>
+        <a href="/">Accueil</a>
         <a href="messages">Messages</a>
         <a href="profil">Profil</a>
       </nav>
